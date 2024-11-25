@@ -103,3 +103,46 @@ footer p {
     font-size: 1rem;
     margin: 10px 0;
 }
+
+.intro-block {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.content-block img {
+    width: 40%;
+    border-radius: 8px;
+}
+
+.content-block .text {
+    padding: 0 1.5rem;
+    flex: 1;
+}
+
+.content-block .even {
+    flex-direction: row-reverse;
+}
+
+.summary{
+    list-style: square;
+    list-style-type: circle;
+    margin-left: 0;
+}
+
+#summary_end{
+    font-style: italic;
+}
